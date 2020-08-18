@@ -1,0 +1,74 @@
+.Border {
+  border: 2px solid blue;
+}
+/* h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+} */
+.page-top {
+  background-color: rgb(60, 19, 87);
+  padding: 5px;
+  text-align: center;
+  color: bisque;
+}
+.page-top img {
+  border-radius: 2px;
+
+  float: left;
+}
+.page-left {
+  background-color: rgb(119, 36, 71);
+  padding: 5px;
+  text-align: justify;
+  width: 75%;
+  height: 400px;
+  color: beige;
+  float: left;
+}
+.page-right {
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  text-align: justify;
+  width: 23.5%;
+  height: 400px;
+  float: left;
+  color: beige;
+}
+body {
+  margin: 0;
+}
+.page-left .content {
+  padding: 15px;
+}
+
+.page-left header {
+  color: burlywood;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.page-bottom {
+  background-color: rgb(11, 37, 11);
+  color: antiquewhite;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.page-right a:hover {
+  color: red;
+  text-decoration: none;
+}
+.page-right a {
+  color: white;
+  text-decoration: none;
+}
+/* .page-right ul {
+  display: inline-block;
+} */
+.page-right li {
+  list-style: none;
+  padding: 5px;
+  /* display: inline-block; */
+}
+.page-right h3 {
+  text-align: left;
+}
