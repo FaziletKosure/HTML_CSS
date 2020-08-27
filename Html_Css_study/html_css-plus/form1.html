@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="result1.html" method="GET">
+      <div>
+        <label for="cars">Choose car:</label><br />
+        <select name="cars" multiple id="cars">
+          <option value="Porche" selected>Porche</option>
+          <option value="Masserati">Masserati</option>
+          <option value="BMV">BMV</option>
+          <option value="LACETTi">Lacetti</option></select
+        ><br /><br />
+      </div>
+      <label for="message">Enter comment </label><br />
+      <textarea
+        name="message"
+        id="message"
+        style="width: 200px; height: 200px"
+        maxlength="50"
+      >
+enter your message</textarea
+      >
+      <br />
+      <div>
+        <label for="lesson1"></label>
+        <input type="text" list="lessons" name="lesson" id="lesson1" />
+        <datalist id="lessons">
+          <option value="java"></option>
+          <option value="html"></option>
+          <option value="css"></option>
+          <option value="js"></option>
+          <option value="git"></option>
+          <option value="maven"></option>
+        </datalist>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Personel onfo</legend>
+          <label for="fname"></label>
+          <br />
+          <input type="text" name="fname" id="fname" value="Fazilet" />
+          <br />
+          <label for="lname"></label>
+          <br />
+          <input type="text" name="lname" id="lname" value="Kosure" />
+        </fieldset>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
