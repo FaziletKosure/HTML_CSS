@@ -1,0 +1,35 @@
+.battery{
+    position: relative;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid #1d1d1d;
+    border-radius: 0.5rem;
+}
+.battery::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    background-color: #1d1d1d;
+    border-radius: 0rem 5px 5px 0rem;
+    top: 0.4rem;
+    right: -1rem;
+}
+.battery::after{
+    content: "";
+    position: absolute;
+    height: 2rem;
+    background-color: #00F001;
+    border-radius: 0.3rem;
+    margin: 0.4rem;
+    animation: battery 2s infinite ease;
+    display: inline-block;
+}
+@keyframes battery{
+    from{
+        width: 0rem;
+    }
+    to{
+        width: 7rem;
+    }
+}
